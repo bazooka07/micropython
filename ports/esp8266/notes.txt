@@ -1,0 +1,4 @@
+docker run --rm -v $HOME:$HOME -u $UID -w $PWD larsks/esp-open-sdk make
+
+~/IOT/Espruino/Espruino/esp-idf/components/esptool_py/esptool/esptool.py --baud 460800 write_flash 0 build-GENERIC_1M/firmware-combined.bin
+

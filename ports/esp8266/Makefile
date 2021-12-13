@@ -1,6 +1,6 @@
 # Select the board to build for: if not given on the command line,
 # then default to GENERIC.
-BOARD ?= GENERIC
+BOARD ?= GENERIC_1M
 
 # If the build directory is not given, make it reflect the board name.
 BUILD ?= build-$(BOARD)
@@ -34,7 +34,7 @@ include $(TOP)/py/py.mk
 GIT_SUBMODULES = lib/axtls lib/berkeley-db-1.xx
 
 FWBIN = $(BUILD)/firmware-combined.bin
-PORT ?= /dev/ttyACM0
+PORT ?= /dev/ttyUSB0
 BAUD ?= 115200
 FLASH_MODE ?= qio
 FLASH_SIZE ?= detect
