@@ -8,6 +8,7 @@ freeze(
         "uasyncio/funcs.py",
         "uasyncio/lock.py",
         "uasyncio/stream.py",
+        "uasyncio/task.py",
     ),
     opt=3,
 )

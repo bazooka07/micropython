@@ -11,6 +11,7 @@ $(error Invalid BOARD specified: $(BOARD_DIR))
 endif
 
 include ../../py/mkenv.mk
+echo "MPY_LIB_DIR: $(MPY_LIB_DIR)"
 
 # Optional
 -include $(BOARD_DIR)/mpconfigboard.mk
