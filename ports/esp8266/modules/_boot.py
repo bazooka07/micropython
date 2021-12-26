@@ -56,7 +56,7 @@ try:
         try:
             import uftpd
         except:
-            pass
+            sta_if.ifconfig()
 
         try:
             import ntptime

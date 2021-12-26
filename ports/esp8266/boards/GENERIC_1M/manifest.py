@@ -19,5 +19,5 @@ if os.path.isdir(convert_path("$(MPY_LIB_DIR)")):
     # freeze("$(MPY_LIB_DIR)/micropython/urllib.urequest", "urllib/urequest.py")
 
     # umqtt
-    #freeze("$(MPY_LIB_DIR)/micropython/umqtt.simple", "umqtt/simple.py")
+    freeze("$(MPY_LIB_DIR)/micropython/umqtt.simple", "umqtt/simple.py")
     #freeze("$(MPY_LIB_DIR)/micropython/umqtt.robust", "umqtt/robust.py")
